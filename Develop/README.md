@@ -1,92 +1,28 @@
-# 03 JavaScript: Password Generator
+# password-generator-hw
 
-## Your Task
+## Description
+- The goal of this project was to create a password generator using pop-up prompts, within a certain size (8 - 128 characters), selectable character types, and ultimately generate the password randomly from these factors. 
 
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+- I built this project in order to better understand how to create pop-up functions in Javascript, as well as use For Loops and Array implementation
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+- What I learned on this project is that array outputs when converted to strings will output the commas between the variables. This took a lot of research to ultimately use the Join command to remove or replace the commas. Also, the importance of understanding how the JS file and the HTML file ultimately communicate, and change each other's variables. 
 
-## User Story
+## Installation
+To install this project, you need to:
+-Download the code from the projects GitHub: https://github.com/flammtaro/password-generator
+-Open the code in Visual Studio Code
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+## Usage
+This code contains the HTML and CSS of the current version of my portfolio website. An image of the current version of the website can be seen here: ![side by side code](assets/passwordgenerator.png). The program itself can be used to come up with different password variations for use in any account creation program. 
 
-## Acceptance Criteria
+## Credits
+This project was created by Reid Somers Flamm. 
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+His GitHub can be found at: https://github.com/flammtaro
+The skills used to complete this project were learned from the UW Bootcamp. 
 
-## Mock-Up
+## License
+BSD 2-Clause License
 
-The following image shows the web application's appearance and functionality:
-
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Copyright (c) 2021, flammtaro
+All rights reserved.
